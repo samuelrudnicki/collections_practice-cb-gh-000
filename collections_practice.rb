@@ -4,6 +4,10 @@ end
 
 def sort_array_desc(array)
   array.sort{|a, b|
-    1 if a<b else 0
+    if a<b 
+      1
+    else
+      0
+    end
   }
 end
