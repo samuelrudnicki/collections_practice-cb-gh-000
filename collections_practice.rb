@@ -28,3 +28,7 @@ def swap_elements(array)
   array[1] = aux
   array
 end
+
+def reverse_array(array)
+  array.reverse
+end
