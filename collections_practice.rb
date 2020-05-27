@@ -11,3 +11,13 @@ def sort_array_desc(array)
     end
   }
 end
+
+def sort_array_char_count(array)
+  array.sort{|a, b|
+    if a.length > a.length
+      1
+    else
+      0
+    end
+  }
+end
